@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFF8FA"/>
+  <circle cx="252" cy="108" r="260" fill="#D98AA4" fill-opacity="0.34"/>
+  <circle cx="960" cy="120" r="250" fill="#A98BE0" fill-opacity="0.25"/>
+  <rect x="110" y="76" width="980" height="478" rx="54" fill="url(#g)"/>
+  <rect x="138" y="104" width="924" height="422" rx="42" stroke="white" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="600" y="178" text-anchor="middle" fill="#F2D6A2" font-family="serif" font-size="28" letter-spacing="10">NOBLE YORU TYPE</text>
+  <text x="600" y="292" text-anchor="middle" fill="white" font-family="serif" font-size="86" font-weight="700">夜職診断</text>
+  <text x="600" y="372" text-anchor="middle" fill="white" fill-opacity="0.82" font-family="sans-serif" font-size="34">あなたに向いている夜職タイプがわかる無料診断</text>
+  <text x="600" y="458" text-anchor="middle" fill="#F2D6A2" font-family="sans-serif" font-size="28">#夜職診断</text>
+  <defs>
+    <linearGradient id="g" x1="110" y1="76" x2="1090" y2="554" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14111D"/>
+      <stop offset="0.55" stop-color="#8F3158"/>
+      <stop offset="1" stop-color="#D98AA4"/>
+    </linearGradient>
+  </defs>
+</svg>
