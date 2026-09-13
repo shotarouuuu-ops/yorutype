@@ -46,7 +46,6 @@ export type DiagnosisResult = {
   type: NightType;
   aura: Aura;
   scores: Record<TraitKey, number>;
-  matchPercent: number;
   oneLine: string;
   shareText: string;
 };
@@ -244,15 +243,12 @@ export function diagnose(answers: number[]): DiagnosisResult {
     .sort(([, a], [, b]) => b - a)
     .slice(0, 2)
     .map(([key]) => getTraitLabel(key as TraitKey));
-  const highestScore = Math.max(...Object.values(scores));
-  const matchPercent = Math.min(97, Math.max(78, Math.round(highestScore * 0.45 + 55)));
   const oneLine = `${type.name} × ${aura.name}｜${topTraits.join('と')}が強いタイプ`;
 
   return {
     type,
     aura,
     scores,
-    matchPercent,
     oneLine,
     shareText: `私の夜職診断は「${type.name}」でした。${type.shareCatch} #夜職診断 #夜タイプ`
   };

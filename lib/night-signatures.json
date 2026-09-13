@@ -1,0 +1,147 @@
+{
+  "AX": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "TRIBE_SIG": {
+    "hunter": [
+      0.3,
+      0.5,
+      1.1,
+      -0.4,
+      0.2,
+      0.1,
+      -0.1
+    ],
+    "queen": [
+      1,
+      1,
+      0.3,
+      -0.1,
+      0,
+      0.3,
+      -0.1
+    ],
+    "healer": [
+      -0.1,
+      -0.5,
+      -0.4,
+      1.1,
+      0.2,
+      -0.2,
+      0.6
+    ],
+    "brain": [
+      0.4,
+      0.2,
+      0.1,
+      -0.3,
+      0.5,
+      0,
+      -0.3
+    ],
+    "muse": [
+      -0.6,
+      -0.4,
+      0,
+      -0.1,
+      0,
+      0.4,
+      -0.5
+    ]
+  },
+  "AURA_SIG": {
+    "hanayaka": [
+      0.4,
+      0,
+      0,
+      0,
+      -0.2,
+      1,
+      -0.1
+    ],
+    "cool": [
+      0,
+      0.2,
+      0,
+      -0.3,
+      0.2,
+      0.1,
+      -1
+    ],
+    "tennen": [
+      0.2,
+      -0.2,
+      0,
+      0.2,
+      -0.4,
+      -1,
+      0.2
+    ],
+    "doryoku": [
+      0,
+      0,
+      0.2,
+      0,
+      1.1,
+      0,
+      0
+    ]
+  },
+  "TYPE_NAME": {
+    "hanayaka_hunter": "女帝",
+    "cool_hunter": "女狐",
+    "tennen_hunter": "福娘",
+    "doryoku_hunter": "職人",
+    "hanayaka_queen": "花魁",
+    "cool_queen": "女王",
+    "tennen_queen": "看板娘",
+    "doryoku_queen": "下剋上",
+    "hanayaka_healer": "太陽",
+    "cool_healer": "黒猫",
+    "tennen_healer": "聖母",
+    "doryoku_healer": "女将",
+    "hanayaka_brain": "才媛",
+    "cool_brain": "軍師",
+    "tennen_brain": "博士",
+    "doryoku_brain": "読心術師",
+    "hanayaka_muse": "妖花",
+    "cool_muse": "夜蝶",
+    "tennen_muse": "人魚",
+    "doryoku_muse": "巫女"
+  },
+  "MIX": {
+    "hunter": {
+      "label": "エース",
+      "color": "#FF7A8A"
+    },
+    "queen": {
+      "label": "女王",
+      "color": "#E8458A"
+    },
+    "healer": {
+      "label": "癒し系",
+      "color": "#5FD0BC"
+    },
+    "brain": {
+      "label": "才女",
+      "color": "#7FA8E8"
+    },
+    "muse": {
+      "label": "小悪魔",
+      "color": "#A98BE0"
+    }
+  },
+  "AURA_LABEL": {
+    "hanayaka": "華やか",
+    "cool": "クール",
+    "tennen": "天然",
+    "doryoku": "努力家"
+  },
+  "sourceSha256": "139784723339747d8d94f2ad07e4ca814ab11868794f35ce52f387bf9682c4fa"
+}
