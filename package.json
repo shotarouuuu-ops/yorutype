@@ -4,16 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "build": "next build --webpack",
     "typecheck": "tsc --noEmit",
-    "validate:static": "node scripts/validate-static.mjs"
+    "validate:static": "node scripts/validate-night.mjs",
+    "test": "node scripts/validate-night.mjs"
   },
   "dependencies": {
-    "next": "^15.3.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
   },
   "devDependencies": {
     "@types/node": "^22.15.32",

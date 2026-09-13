@@ -1,6 +1,1 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  poweredByHeader: false
-};
-
-export default nextConfig;
+export default { poweredByHeader: false, output: 'export', trailingSlash: true, images: { unoptimized: true } };
