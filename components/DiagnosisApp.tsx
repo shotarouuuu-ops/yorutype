@@ -28,7 +28,7 @@ function ResultCard({ result }: { result: DiagnosisResult }) {
         <h2 className="mt-3 font-serifjp text-5xl font-semibold leading-none tracking-[0.08em] drop-shadow-sm">{result.type.name}</h2>
         <p className="mx-auto mt-5 max-w-[18rem] text-sm leading-7 text-white/88">{result.type.catch}</p>
         <div className="mx-auto mt-6 inline-flex rounded-full border border-white/35 bg-white/20 px-4 py-2 text-xs font-semibold text-white backdrop-blur">
-          的中度目安 {result.matchPercent}% ・ {result.aura.label}
+          {result.aura.label}
         </div>
         <p className="absolute bottom-5 left-0 right-0 text-[11px] tracking-[0.35em] text-white/70">#夜職診断</p>
       </div>
